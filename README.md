@@ -9,4 +9,4 @@ Podemos aproveitar para ver como o computador consegue calcular 15.000 objetos a
 
 # Site Preview
 
-Acesse a pré visualização clicando <a src="https://joaovitornatali.github.io/colisao-de-particulas/">aqui</a>.
+Acesse a pré visualização clicando <a href="https://joaovitornatali.github.io/colisao-de-particulas/">aqui</a>.
