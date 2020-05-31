@@ -5,4 +5,8 @@ Nesse código temos um exemplo de partículas se movimentando aleatoriamente na 
 <hr>
 Podemos aproveitar para ver como o computador consegue calcular 15.000 objetos ao mesmo tempo atualizando sua posição 60 vezes por segundo.
 <br>
+<hr>
 
+# Site Preview
+
+Acesse a pré visualização clicando <a src="https://joaovitornatali.github.io/colisao-de-particulas/">aqui</a>.
