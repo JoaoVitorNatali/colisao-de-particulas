@@ -1,4 +1,4 @@
-function Player(color, cenario){
+function Player(color, cenario, img){
     
     //atributos
     this.cor = color;
@@ -11,7 +11,8 @@ function Player(color, cenario){
     //métodos
     this.drawObject = ()=>{
         cenario.ctx.fillStyle = this.cor;
-        cenario.ctx.fillRect(this.px, this.py, this.largura, this.altura);
+        // cenario.ctx.fillRect(this.px, this.py, this.largura, this.altura);
+        cenario.ctx.drawImage(img, 0,0,512,512, this.px, this.py, this.largura, this.altura);
     }
 
     this.movimenta = ()=>{
@@ -89,7 +90,7 @@ function Particulas(color, cenario){
     }
 
     this.afasta = (player)=>{
-        const dist = 15;
+        const dist = 10;
         const LFP = player.px - dist;
         const RGP = player.px + player.largura + dist;
         const UPP = player.py - dist;
